@@ -8,7 +8,7 @@ function App() {
 
 async function reviewText() {
   try {
-    const res = await fetch('https://textsummarizeapp.onrender.com/', {
+    const res = await fetch('https://textsummarizeapp.onrender.com/ai/review', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
